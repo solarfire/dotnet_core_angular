@@ -18,5 +18,12 @@ namespace DatingApp.API.Data
         Values - Name of Table
         */
         public DbSet<Value> Values { get; set; }
+
+        /**
+        Tell the DataContext about our entities
+        User - Type / Entity
+        Users - Name of Table
+        */
+        public DbSet<User> Users { get; set; }
     }
 }
